@@ -219,9 +219,26 @@ body {
 
 
     <header> <h1>ANÁLISE TÉCNICA</h1> </header>
+    
+    
+    <button style="font: normal 10pt Arial"; >Clique e sinta a Vibe !</button>
+
+    <script>
+        var btn = document.querySelector('button');
+    
+    function random(number) {
+      return Math.floor(Math.random()*(number+1));
+    }
+    
+    btn.onclick = function() {
+      var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+      document.body.style.backgroundColor = rndCol;
+      document.body.style.color = rndCol;
+    }
+    </script>
 
 
-
+<!-- Widget Previs&atilde;o de Tempo CPTEC/INPE --><iframe allowtransparency="true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" src="https://www.cptec.inpe.br/widget/widget.php?p=241&w=v&c=748ccc&f=ffffff" height="350px" width="192px"></iframe><noscript>Previs&atilde;o de <a href="http://www.cptec.inpe.br/cidades/tempo/241">Rio de Janeiro/RJ</a> oferecido por <a href="http://www.cptec.inpe.br">CPTEC/INPE</a></noscript><!-- Widget Previs&atilde;o de Tempo CPTEC/INPE -->
 
     <main class="tela-principal"  >
         <section1 class="conteudo" >
@@ -279,13 +296,7 @@ body {
 
             <h2>GRÁFICOS</h2>
             
-            <div>
-                <img src="https://alternative.me/crypto/fear-and-greed-index.png" alt="Latest Crypto Fear & Greed Index" />
-            </div>
-            
-            <div>
-                <img src="https://alternative.me/images/fng/crypto-fear-and-greed-index-2020-5-13.png" alt="Crypto Fear & Greed Index on May 13, 2020" />
-            </div>
+           
 
             <div>
                 <div class="cb-widget" data-asset-symbol="BTC" data-asset-id="5b71fc48-3dd3-540c-809b-f8c94d0e68b5" data-period="day" data-show-chart="true" data-show-stats="true" data-locale="en" data-country="US" data-base="BRL" data-slug="bitcoin"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
@@ -311,7 +322,22 @@ body {
             <div>
                 <div class="cb-widget" data-asset-symbol="XRP" data-asset-id="e17a44c8-6ea1-564f-a02c-2a9ca1d8eec4" data-period="day" data-show-chart="true" data-show-stats="true" data-locale="en" data-country="US" data-base="BRL" data-slug="xrp"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
             </div>
-
+            
+            <div>
+                <div class="cb-widget" data-asset-symbol="CRO" data-asset-id="2d6b2001-dd44-5f5c-bc33-ed43d3e3c8f0" data-period="hour" data-show-chart="true" data-show-stats="true" data-locale="en" data-country="US" data-base="BRL" data-slug="crypto-com-coin"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
+            </div>
+            
+            <div>
+            <div class="cb-widget" data-asset-symbol="XLM" data-asset-id="13b83335-5ede-595b-821e-5bcdfa80560f" data-period="hour" data-show-chart="true" data-show-stats="true" data-locale="en" data-country="US" data-base="BRL" data-slug="stellar"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
+            </div>
+            
+            <div>
+               <div class="cb-widget" data-asset-symbol="SHINJA" data-asset-id="69d459b9-f75b-4f0a-95ec-ff5a0065a76c" data-period="hour" data-show-chart="true" data-show-stats="true" data-locale="en" data-country="US" data-base="BRL" data-slug="shibnobi"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script> 
+            </div>
+            
+            
+            
+            
             <div>
                 <div class="cb-widget" data-asset-symbol="LUNA" data-asset-id="22b65a7b-0ed0-5960-a7bf-470cce141baa" data-period="day" data-show-chart="true" data-show-stats="true" data-locale="en" data-country="US" data-base="BRL" data-slug="terra-luna"></div><script async src="https://widget.coinbase.com/embed-v1.3.js"></script>
             </div>
@@ -457,6 +483,7 @@ body {
         </div>
     </section>
     <br> <br>
+    
      <footer> <p>Site desenvolvido por  @salgadoprocult@gmail.com </p> 
     <p>Sites criado pelo mesmo desenvolvedor : <br> <br>  <a href="https://salgadopro.github.io/farofapc/internetdascoisas.html" style="color: aliceblue;" target="_blank" > Farofa PC  </a> <br> <br>
         <a href="https://salgadopro.github.io/Tiosalgado/Musicas.html" style="color: aliceblue;" target="_blank" > DJ Online para Festas Infantis</a> <br> <br>
